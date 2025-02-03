@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="C:\Users\SSM\Desktop\js\styles\rock-paper-scissors.css">
+</head>
+
+<body>
+    
+    <div class="div">
+    <center>
+       
+    
+    <p class="title">  <h1> <img src="C:/Users/SSM/Desktop/js/images/img1.png" class="img">Rock Paper Scissors</h1></p>
+    
+    
+    <button onclick="playGame('rock')" class="move-btn"><img src="C:\Users\SSM\Desktop\js\images\rock-emoji.jpeg" class="move-icon"></button>
+    <button onclick=" playGame('Paper')" class="move-btn"><img src="C:\Users\SSM\Desktop\js\images\paper-emoji.jpeg" class="move-icon"></button>
+    <button onclick="playGame('Scissors')" class="move-btn"><img src="C:\Users\SSM\Desktop\js\images\scissors-emoji.jpeg" class="move-icon"></button>
+    <p class="results"></p>
+    <p class="moves" ></p>
+    <p class="score" ></p>
+    <button onclick="score.wins=0;score.losses=0;score.ties=0;localStorage.removeItem('score'); updateElements();" class="reset-btn">Reset Score</button>
+    <!--<p><a href="click here">Click here</a>to see the final version of the project.</p>-->
+</center>
+</div>
+</body>
+
+<script src="C:\Users\SSM\Desktop\js\scripts\rock-paper-scissors.js"></script>
+</html>
